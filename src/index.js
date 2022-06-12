@@ -29,5 +29,5 @@ document.addEventListener("DOMContentLoaded", () => {
     form.reset();
   };
 
-  createTaskBtn.addEventListener("click", addNewTask);
+  form.addEventListener("submit", addNewTask);
 });
